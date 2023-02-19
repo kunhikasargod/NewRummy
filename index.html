@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Jack</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2 class="title">My Rummy</h2>
+        <div class="result">
+            <p class="resultNum" id="resultNum">00</p>
+            <p class="message" id="message">Hmm</p>
+        </div>
+        <div class="label">
+            <p for="button1" id="label1" class="label1">00</p>
+            <p for="button2" id="label2" class="label2">00</p>
+            <p for="button3" id="label3" class="label3">00</p>
+        </div>
+        <div class="buttons">
+            <button onclick="firstValue()" class="button1" id="button1">First Number</button>
+            <button onclick="secondValue()" class="button2" id="button2">Second Number</button>
+            <button onclick="thirdValue()" class="button3" id="button3">Third Number</button>
+        </div>
+        <div class="lastBtn">
+            <button onclick="findSum()" class="tryLuck" id="tryLuck">Try Luck</button>
+            <button onclick="reset()" class="reset" id="reset">Reset</button>
+        </div> 
+    </div>
+</body>
+</html>

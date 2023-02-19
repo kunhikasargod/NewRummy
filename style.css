@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #3399ff, #00cc99);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    background: rgba(255, 255, 255, .1);
+    width: 95%;
+    max-width: 500px;
+    min-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(255, 255, 255, .5);
+    border: 1px solid whitesmoke;
+    text-align: center;
+}
+.title {
+    font-size: 35px;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 3px;
+}
+.resultNum {
+    font-size: 60px;
+    font-weight: 500;
+    color: #990000;
+    width: 80px;
+    margin-left: 40%;
+    padding: 8px;
+    box-shadow: 0 2px 4px;
+    border-radius: 5px;
+    border: 1px solid #00ffff;
+    text-shadow: 1px 2px 2px rgba(255, 255, 255, .5);
+}
+.message {
+    font-size: 30px;
+    color: #993300;
+}
+.label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #339933;
+}
+.label1, .label2, .label3 {
+    background:rgba(255, 255, 255, .1);
+    box-shadow: 0 1px 2px;
+    font-size: 50px;
+    margin: 10px;
+    padding-bottom: 5px;
+    width: 135px;
+    border: 1px solid #ffffcc;
+    border-radius: 5px;
+    text-shadow: 1px 2px 2px rgba(255, 255, 255, .5);
+}
+.button1, .button2, .button3 {
+    color: #990000;
+    margin: 10px;
+    margin-top: 20px;
+    height: 30px;
+    width: 135px;
+    border-radius: 15px;
+    border: 1px solid #99ffcc;
+    box-shadow: 0 2px 3px;
+    text-transform: uppercase;
+    background-color: grey;
+    text-shadow: 0px .5px .5px rgba(255, 255, 255, .5);
+}
+.tryLuck, .reset {
+    margin: 20px;
+    margin-bottom: 30px;
+    width: 165px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 50px;
+    border: 1px solid #99ffcc;
+    box-shadow: 0 2px 3px;
+    text-transform: uppercase;
+    text-shadow: 0px 1px 1px rgba(255, 255, 255, .5);
+}
+.tryLuck {
+    background-color: #669900;
+}
+.reset{
+    background-color: #ff6666;
+}
